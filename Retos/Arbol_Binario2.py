@@ -92,7 +92,7 @@ class arbol():
                 padre.left = actual.left
                 padre.right = actual.right
                 actual = None
-                return ("Se a eliminado el nodo",actual)
+                return ("Se ha eliminado el nodo",actual)
             return("El elemento no existe")
     
 
